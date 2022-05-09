@@ -27,7 +27,7 @@ HELPABLE = {}
 
 async def initiate_bot():
     with console.status(
-        "[magenta] Booting up The Tamilini Music...",
+        "[magenta] Booting up The sunny Music...",
     ) as status:
         console.print("╭─⊸➢ [red]Clearing MongoDB cache...")
         try:
@@ -78,7 +78,7 @@ async def initiate_bot():
         await asyncio.sleep(2.4)
         await startup_delete_last(_____)
     console.print(
-        "[bold green]Congrats!! Tamilini Music has started successfully!🥳\n"
+        "[bold green]Congrats!! SUNNY Music has started successfully!🥳\n"
     )
     try:
         await app.send_message(
@@ -188,7 +188,7 @@ async def start_command(_, message):
 📎**Channel Link:** [Visit From Here]({channellink})
 🔗**Video Link:** [Link]({link})
 
-⚡️ __Searched Powered By {BOT_NAME}t__"""
+⚡️ __Searched Powered By {BOBBY MUSIC}t__"""
             key = InlineKeyboardMarkup(
                 [
                     [
